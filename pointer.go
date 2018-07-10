@@ -10,7 +10,7 @@ func main() {
 	var pa *int
 	pa = &a //&a = aのアドレス
 	// paの領域にあるデータの値 = *pa
-	fmt.Println(pa)
-	fmt.Println(*pa)
+	fmt.Println(pa)  //アドレスの表示(16進数)
+	fmt.Println(*pa) //5
 
 }
