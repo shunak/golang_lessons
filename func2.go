@@ -18,14 +18,13 @@ import "fmt"
 
 func main() {
 
+	// /変数に関数を代入して表示
 	// f := func(a, b int) (int, int) {
 	// 	return b, a
 	// }
-
 	// fmt.Println(f(2, 3))
 
 	// JSの即時関数的記法
-
 	func(msg string) {
 		fmt.Println(msg)
 	}("foo")
