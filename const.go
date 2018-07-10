@@ -5,8 +5,8 @@ package main
 import "fmt"
 
 func main() {
-	// const name = "taguchi"
-	// name = "fkoji"
+	// const name = "foo"
+	// name = "baa"
 	// fmt.Println(name)
 
 	const (
