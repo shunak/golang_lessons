@@ -19,6 +19,7 @@ func main() {
 	fmt.Println(m)
 
 	// キーの存在を調べる
+	// vに値、okにboolleanの真偽値を返す
 	v, ok := m["baa"]
 	fmt.Println(v)
 	fmt.Println(ok)
