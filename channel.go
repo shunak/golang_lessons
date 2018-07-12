@@ -22,7 +22,7 @@ func task2() {
 
 }
 
-// go のprefixでを付すことで、並列計算が可能になる
+// goというprefixでを付すことで、並列計算が可能になる
 func main() {
 	// チャンネルの作成
 	result := make(chan string)
