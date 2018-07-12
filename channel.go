@@ -8,6 +8,8 @@ import (
 	"time"
 )
 
+// task1の方でchannelに対してデータを渡して、
+// mainの方でそのデータを取り出す
 func task1(result chan string) {
 	time.Sleep(time.Second * 2)
 	// fmt.Println("task1 finised!")
@@ -21,6 +23,7 @@ func task2() {
 
 // go のprefixでを付すことで、並列計算が可能になる
 func main() {
+	// チャンネルの作成
 	result := make(chan string)
 
 	// 同時に走らせたい処理がある場合には go を付けて goroutine にすることができる
