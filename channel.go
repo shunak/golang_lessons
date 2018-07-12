@@ -13,6 +13,7 @@ import (
 func task1(result chan string) {
 	time.Sleep(time.Second * 2)
 	// fmt.Println("task1 finised!")
+	// チャンネルresultに対して、データを渡している
 	result <- "task1 result"
 }
 
